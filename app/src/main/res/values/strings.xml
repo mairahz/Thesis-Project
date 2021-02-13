@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Thesis Project</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="edit_dp">Edit DP</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="conf_pass">Confirm Password</string>
+</resources>
