@@ -44,6 +44,7 @@ public class SignUp extends AppCompatActivity {
         intent.putExtra(SIGNUP_EMAIL, email);
         intent.putExtra(SIGNUP_PASSWORD, password);
         intent.putExtra(SIGNUP_CONFPASS, confPass);
+        intent.putExtra("FROM_ACTIVITY", "SIGNUP");
 
         startActivity(intent);
     }

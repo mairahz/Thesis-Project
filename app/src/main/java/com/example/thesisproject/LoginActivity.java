@@ -29,6 +29,7 @@ public class LoginActivity extends AppCompatActivity {
         // Send data to next screen
         intent.putExtra(LOGIN_USERNAME, username);
         intent.putExtra(LOGIN_PASSWORD, password);
+        intent.putExtra("FROM_ACTIVITY", "LOGIN");
 
         startActivity(intent);
     }
